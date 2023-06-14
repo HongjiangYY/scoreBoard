@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: midnightblue;
+    text-align: center;
+}
+
+.words {
+    color:white;
+    text-align: center;
+    
+}
+
+.score{
+    display: flex;
+    margin-top: 0px;
+    color: red;
+    background-color: black;
+    height: 90px;
+    width: 120px;
+    display: inline-block;
+    font-size: 5em;
+    margin-bottom: 15px;
+    
+}
+button {
+    margin-top: 0px;
+    background-color: midnightblue;
+    border: 1px solid white;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;    
+}
